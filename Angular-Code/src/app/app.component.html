@@ -1,0 +1,54 @@
+  <div class="header">
+    <p>Gallary</p>
+    </div>
+    
+      <body style="background-color:#ebf8ff;">
+        <div class="row col-lg-12">
+        <div class="col-lg-5"></div>
+          <div class="col-lg-2">
+
+            <input 
+            hidden 
+            type="file" name="uploadedImage"
+            #UploadFileInput
+            (change)="onFormSubmit($event)"
+        /> 
+        <button class="btn" (click)="UploadFileInput.click()" style=" margin-top: 20px; margin-left: 30%; padding: 1px;">
+          <a href="#" class="btn" style="color:rgb(42, 135, 167) ;">
+            <span class="glyphicon glyphicon-upload" style="padding: 0%; margin: 0%; color: rgb(42, 135, 167);"></span> Upload
+          </a>
+          
+      </button>
+            
+          </div>
+          
+      </div>
+        <div class="container col-lg-12 col-xs-12"><br>
+          <span class="rounded-lg "></span>
+                <div class="row col-lg-12">
+                  <div class="col-lg-3"></div>
+                    <div class="card col-lg-2">
+                        
+                        <img id="image-1.jpg" src="{{'assets/'+arrayImage[0]}}" class="preview-image img-fluid rounded-lg">
+                        <div class="card-body">
+                          <p class="card-text" >Image 1</p>
+                        </div>
+                    </div>
+                    <div class="card col-lg-2">
+                        <img id="image-2.jpg" src="{{'assets/'+arrayImage[1]}}" class="preview-image img-fluid rounded-lg">
+                        <div class="card-body">
+                          <p class="card-text">Image 2</p>
+                        </div>
+                    </div>
+                    <div class="card col-lg-2">
+                        <img id="image-3.jpg" src="{{'assets/'+arrayImage[2]}}" class="preview-image img-fluid rounded-lg">
+                        <div class="card-body">
+                          <p class="card-text">Image 3</p>
+                        </div>
+                    </div>
+                    </div>
+        </div>
+        <div class="footer">
+          <p>Fullstack Challenge 2020</p>
+          </div>
+        </body>

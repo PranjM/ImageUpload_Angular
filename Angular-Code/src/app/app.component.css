@@ -1,0 +1,78 @@
+
+
+  .img-fluid {
+max-width: 100%;
+height: 200px;
+width: 1000px;
+}
+
+
+.card{
+padding: 0%;
+margin: 6px;
+}
+.card-body{
+padding: 5px;
+text-align: center;
+}
+
+.footer {
+ position: fixed;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+ height: 50px;
+ background-color: rgb(65, 45, 177);
+ color: white;
+ text-align: center;
+ margin-bottom: -20px;
+ margin-top: 0px;
+ border-radius: 7px;
+}
+.header {
+list-style-type: none;
+margin: 0;
+padding: 0;
+border-radius: 5px;
+overflow: hidden;
+width: 100%;
+height: 40px;
+text-align: center;
+font-size: 25px;
+color: white;
+background-color:  rgb(65, 45, 177);
+}
+
+form div {
+  position: relative;
+  width: 102px;
+  height: 38px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+
+input[type=file] {
+  width: 100%;
+  background-color :lightsteelblue;
+  
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size :10px;
+  opacity: 0px;
+  overflow: hidden;
+}
+.btn {
+  background-color:white;
+  margin-top: 2px gray;
+  cursor: pointer;
+  font-size: medium;
+  position: center
+  ;
+}
+
+
+
